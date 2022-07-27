@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap");
 
 /* google fonts end */
-#banner h1 {
+.banner_content h1 {
   font-family: "Kanit", sans-serif;
   font-size: 80px;
-  line-height: 50px;
+  line-height: 30px;
 }
 .bg_nike {
   background-color: #fff9f4;
@@ -39,4 +39,14 @@
 }
 .dis_img {
   width: 80px;
+}
+@media (min-width: 350px) and (max-width: 768px) {
+  .banner_content h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .about_img img {
+    width: 100% !important;
+  }
 }
